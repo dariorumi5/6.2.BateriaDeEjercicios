@@ -49,7 +49,7 @@ classDiagram
     class Tienda {
     }
 
-    CentroComercial "1" --|> "1..*" Tienda
+    CentroComercial "1" ..|> "1..*" Tienda
 ```
 EJERCICIO 5:
 ```mermaid

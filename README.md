@@ -6,8 +6,8 @@ classDiagram
         -String nombreUsuario
         -String contraseña
         +String correo
-        +cambiarPassword(String nueva)
-        -validarEmail()
+        +cambiarPassword(String nueva) : void
+        -validarEmail() : void
     }
 ```
 EJERCICIO 2:
@@ -68,7 +68,7 @@ classDiagram
     }
 
     class Carrito {
-        +pagar(MetodoPago miMetodo)
+        +pagar(MetodoPago miMetodo) : void
     }
 
     MetodoPago <|.. Tarjeta

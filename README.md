@@ -1,4 +1,5 @@
 # 6.2.BateriaDeEjercicios
+EJERCICIO 1:
 ```mermaid
 classDiagram
     class Usuario {
@@ -9,7 +10,7 @@ classDiagram
         -validarEmail()
     }
 ```
-
+EJERCICIO 2:
 ```mermaid
 classDiagram
     class Persona {
@@ -22,9 +23,9 @@ classDiagram
         notaMedia double
     }
 
-    Persona <|-- Estudiante
+    Persona --|> Estudiante
 ```
-
+EJERCICIO 3:
 ```mermaid
 classDiagram
     class Computadora{
@@ -39,7 +40,7 @@ classDiagram
     %% Agregación (débil)
     Computadora o-- Raton : usa
 ```
-
+EJERCICIO 4:
 ```mermaid
 classDiagram
     class CentroComercial {
@@ -50,7 +51,7 @@ classDiagram
 
     CentroComercial "1" o-- "1..*" Tienda
 ```
-
+EJERCICIO 5:
 ```mermaid
 classDiagram
     class MetodoPago {
@@ -74,7 +75,7 @@ classDiagram
     MetodoPago <|.. Paypal
     Carrito --> MetodoPago : usa
 ```
-
+EJERCICIO 6:
 ```mermaid
 classDiagram
     class Recurso {

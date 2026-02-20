@@ -101,6 +101,6 @@ classDiagram
     Recurso <|-- Libro
     Recurso <|-- Revista
 
-    Usuario "1" --> "0..*" Recurso : presta
+    Usuario "1" --> "0..*" Recurso 
 ```
 
